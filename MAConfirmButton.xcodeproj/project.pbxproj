@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B002F3E144A39AB00ADF36B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B002F3D144A39AB00ADF36B /* Foundation.framework */; };
+		1B002F44144A39AB00ADF36B /* MAConfirmButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B002F43144A39AB00ADF36B /* MAConfirmButton.m */; };
+		1B002F4F144A39DD00ADF36B /* UIColor-Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B002F4D144A39DD00ADF36B /* UIColor-Expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B002F50144A39DD00ADF36B /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B002F4E144A39DD00ADF36B /* UIColor-Expanded.m */; };
+		1B002F52144A39FF00ADF36B /* MAConfirmButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B002F42144A39AB00ADF36B /* MAConfirmButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B002F3A144A39AB00ADF36B /* libMAConfirmButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMAConfirmButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B002F3D144A39AB00ADF36B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B002F42144A39AB00ADF36B /* MAConfirmButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAConfirmButton.h; sourceTree = "<group>"; };
+		1B002F43144A39AB00ADF36B /* MAConfirmButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAConfirmButton.m; sourceTree = "<group>"; };
+		1B002F4D144A39DD00ADF36B /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		1B002F4E144A39DD00ADF36B /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B002F37144A39AB00ADF36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B002F3E144A39AB00ADF36B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B002F2F144A39AB00ADF36B = {
+			isa = PBXGroup;
+			children = (
+				1B002F3F144A39AB00ADF36B /* MAConfirmButton */,
+				1B002F3C144A39AB00ADF36B /* Frameworks */,
+				1B002F3B144A39AB00ADF36B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B002F3B144A39AB00ADF36B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B002F3A144A39AB00ADF36B /* libMAConfirmButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B002F3C144A39AB00ADF36B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B002F3D144A39AB00ADF36B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B002F3F144A39AB00ADF36B /* MAConfirmButton */ = {
+			isa = PBXGroup;
+			children = (
+				1B002F4D144A39DD00ADF36B /* UIColor-Expanded.h */,
+				1B002F4E144A39DD00ADF36B /* UIColor-Expanded.m */,
+				1B002F42144A39AB00ADF36B /* MAConfirmButton.h */,
+				1B002F43144A39AB00ADF36B /* MAConfirmButton.m */,
+			);
+			path = MAConfirmButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B002F38144A39AB00ADF36B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B002F4F144A39DD00ADF36B /* UIColor-Expanded.h in Headers */,
+				1B002F52144A39FF00ADF36B /* MAConfirmButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B002F39144A39AB00ADF36B /* MAConfirmButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B002F47144A39AB00ADF36B /* Build configuration list for PBXNativeTarget "MAConfirmButton" */;
+			buildPhases = (
+				1B002F36144A39AB00ADF36B /* Sources */,
+				1B002F37144A39AB00ADF36B /* Frameworks */,
+				1B002F38144A39AB00ADF36B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAConfirmButton;
+			productName = MAConfirmButton;
+			productReference = 1B002F3A144A39AB00ADF36B /* libMAConfirmButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B002F31144A39AB00ADF36B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B002F34144A39AB00ADF36B /* Build configuration list for PBXProject "MAConfirmButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B002F2F144A39AB00ADF36B;
+			productRefGroup = 1B002F3B144A39AB00ADF36B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B002F39144A39AB00ADF36B /* MAConfirmButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B002F36144A39AB00ADF36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B002F44144A39AB00ADF36B /* MAConfirmButton.m in Sources */,
+				1B002F50144A39DD00ADF36B /* UIColor-Expanded.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B002F45144A39AB00ADF36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B002F46144A39AB00ADF36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B002F48144A39AB00ADF36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MAConfirmButton.dst;
+				INSTALL_PATH = /;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = Headers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+			};
+			name = Debug;
+		};
+		1B002F49144A39AB00ADF36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MAConfirmButton.dst;
+				INSTALL_PATH = /;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = Headers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B002F34144A39AB00ADF36B /* Build configuration list for PBXProject "MAConfirmButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B002F45144A39AB00ADF36B /* Debug */,
+				1B002F46144A39AB00ADF36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B002F47144A39AB00ADF36B /* Build configuration list for PBXNativeTarget "MAConfirmButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B002F48144A39AB00ADF36B /* Debug */,
+				1B002F49144A39AB00ADF36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B002F31144A39AB00ADF36B /* Project object */;
+}
